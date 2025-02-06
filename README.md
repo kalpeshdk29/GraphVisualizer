@@ -1,36 +1,54 @@
+# Graph Visualizer
 
-Graph Visualizer🚀
+## 🚀 Introduction
+Graph Visualizer is a simple web application built with React, Redux, and React Flow. It allows users to create and interact with graph nodes dynamically.
 
-IntroductionGraph Visualizer is a simple web application built with React, Redux, and React Flow. It allows users to create and interact with graph nodes dynamically.
-🎨 Features🖌 Select nodes and customize their appearance
-🎨 Change node colors
-🔠 Adjust node font size
-🔄 Real-time updates with Redux state management
-⚡ Fast and optimized with Vite
+## 🎨 Features
+- Select nodes and customize their appearance
+- Change node colors
+- Adjust node font size
 
-📦 InstallationClone the repository and install dependencies:
-# Clone the repository
-git clone <repository-url>
-cd <project-directory>
+## 📦 How to Start
 
-# Install dependencies
-npm install  Development ServerStart the development server with hot reloading:
-npm run dev  The app will be available at: http://localhost:5173
-📦 Build for ProductionTo create an optimized production build:
-npm run buildThe built files will be located in the dist folder.
-🚀 Preview Production BuildTo preview the production build locally:
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd <project-directory>
+   ```
 
-npm run preview🛠 Project Structure
-├── src/ 
-│   ├── components/      # Reusable UI components          
-│   ├── redux/           # Redux state management
-│   ├── assets/          # Static assets (images, fonts, etc.)
-│   ├── styles/          # Global styles
-│   ├── main.tsx         # Entry point
-│   ├── App.tsx          # Main App component
-├── public/              # Static files
-├── .gitignore           # Ignored files for Git
-├── index.html           # Main HTML file
-├── package.json         # Project dependencies and scripts
-├── vite.config.ts       # Vite configuration
-└── README.md            
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+   The app will be available at: [http://localhost:5173](http://localhost:5173)
+
+4. Build for production:
+   ```sh
+   npm run build
+   ```
+   The built files will be in the `dist` folder.
+
+## 📜 Available Scripts
+| Command           | Description |
+|------------------|-------------|
+| `npm run dev`    | Start the development server |
+| `npm run build`  | Build for production |
+| `npm run preview`| Preview production build |
+| `npm run lint`   | Run ESLint (if configured) |
+| `npm run format` | Format code with Prettier (if configured) |
+
+## 📦 Dependencies
+- React
+- Redux Toolkit
+- React Flow
+- Vite
+- TypeScript 
+
+---
+
+
